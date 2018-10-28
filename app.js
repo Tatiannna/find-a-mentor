@@ -10,10 +10,10 @@ app.get('/', (req, res) =>
 );
 
 app.get('/signup', (req, res) => 
-	res.render("index.html")
+	res.render("signup.html")
 );
 app.get('/login', (req, res) => 
-	res.render("index.html")
+	res.render("login.html")
 );
 
 
